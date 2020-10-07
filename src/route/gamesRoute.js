@@ -3,6 +3,7 @@ const router = express.Router()
 const controller = require("../controller/gamesController")
 const cors = require("cors")
 
-router.get("/games", cors (), controller.getGames)
+router.get("/jogos", cors (), controller.getGames)
+router.get("/jogos/:id", cors(), controller.getGamesById)
 
 module.exports = router
