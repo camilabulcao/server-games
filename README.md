@@ -1,6 +1,5 @@
 # server-games 🎮
 
-Projeto desenvolvido na semana 8 
 
 ### Motivação
 Praticar a criação de API utilizando o método GET baseado na estrutura MVC
